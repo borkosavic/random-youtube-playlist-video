@@ -25,6 +25,7 @@ Generates embed code. Note that I added some parameters:
 * Controls - off (hides Youtube controls)
 * Modest branding (reduces Youtube branding to transparent logo in bottom right corner)
 * Show info - off (hides song/playlist info usually displayed in top left corner)
+
 You can find full list of available parameters at [YouTube Embedded Players and Player Parameters] (https://developers.google.com/youtube/player_parameters)
 
 ### Fullscreen stuff - optional
