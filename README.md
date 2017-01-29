@@ -28,7 +28,7 @@ Generates embed code. Note that I added some parameters:
 You can find full list of available parameters at [YouTube Embedded Players and Player Parameters] (https://developers.google.com/youtube/player_parameters)
 
 ### Fullscreen stuff - optional
-In the demo, embeded playlist is fullscreen. This is jquery code that can be found all around the interwebs - it makes embeded video take full width & height of the browser vindow. Note that you need to include jQuery before this part in order for it to work properly. 
+In the demo, embeded playlist is fullscreen. This is jQuery code that can be found all around the interwebs - it makes embeded video take full width & height of the browser vindow. Note that you need to include jQuery before this part in order for it to work properly. 
 ```javascript
 $(function(){
     $('#random-video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
