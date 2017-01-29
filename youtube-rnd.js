@@ -1,9 +1,11 @@
 // Playlist ID
-    var list = 'PLz8JsiLUtVnD2t0qlJYDhXtyiCWTv37DA'
+    var listID = 'PLz8JsiLUtVnD2t0qlJYDhXtyiCWTv37DA';
+// Number of videos in playlist    
+    var numberOfVideos = 200;
 // Random number generator 
-    var num = Math.floor(Math.random() * 200 + 1);
+    var randomizer = Math.floor(Math.random() * numberOfVideos + 1);
 // Embed video code
-    document.writeln('<iframe id="random-video" src="//www.youtube.com/embed/videoseries?list=' + list + '&index=' + num + '&autoplay=1&controls=0&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>');
+    document.writeln('<iframe id="random-video" src="//www.youtube.com/embed/videoseries?list=' + listID + '&index=' + randomizer + '&autoplay=1&controls=0&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>');
 
 //Fullscreen stuff (optional)
     $(function(){
