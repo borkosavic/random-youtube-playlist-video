@@ -2,7 +2,6 @@
 
 I guess that _everyone_ came across this problem at one point
 > I want to embed a Youtube playlist starting from random video
-
 **__Everyone__**
 
 Youtube does not have an option for that and I didnt find a solution on the internet, so here it is.
