@@ -12,7 +12,7 @@ Youtube does not have an option for that and I didnt find a solution on the inte
 // Embed video code
     document.writeln('<iframe id="random-video" src="//www.youtube.com/embed/videoseries?list=' + list + '&index=' + num + '&autoplay=1&controls=0&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>');
 ```
-[DEMO] (https://borkosavic.github.io/random-youtube-playlist-video)
+<a href="https://borkosavic.github.io/random-youtube-playlist-video" style="font-size: 4em;">DEMO</a>
 
 ## Options:
 ### Playlist ID
