@@ -1,8 +1,6 @@
 # Start Youtube playlist with random video
 
 I guess that _everyone_ came across this problem at one point
-> I want to embed a Youtube playlist starting from random video
-**__Everyone__**
 
 Youtube does not have an option for that and I didnt find a solution on the internet, so here it is.
 
@@ -28,6 +26,7 @@ Generates embed code. Note that I added some parameters:
 * Modest branding (reduces Youtube branding to transparent logo in bottom right corner)
 * Show info - off (hides song/playlist info usually displayed in top left corner)
 You can find full list of available parameters at [YouTube Embedded Players and Player Parameters] (https://developers.google.com/youtube/player_parameters)
+
 ### Fullscreen stuff - optional
 ```javascript
 $(function(){
