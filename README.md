@@ -6,19 +6,21 @@ Youtube does not have an option for that and I didnt find a solution on the inte
 
 ```javascript
 // Playlist ID
-    var list = 'PLz8JsiLUtVnD2t0qlJYDhXtyiCWTv37DA'
+    var listID = 'PLz8JsiLUtVnD2t0qlJYDhXtyiCWTv37DA';
+// Number of videos in playlist    
+    var numberOfVideos = 200;
 // Random number generator 
-    var num = Math.floor(Math.random() * 200 + 1);
+    var randomizer = Math.floor(Math.random() * numberOfVideos + 1);
 // Embed video code
-    document.writeln('<iframe id="random-video" src="//www.youtube.com/embed/videoseries?list=' + list + '&index=' + num + '&autoplay=1&controls=0&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>');
+    document.writeln('<iframe id="random-video" src="//www.youtube.com/embed/videoseries?list=' + listID + '&index=' + randomizer + '&autoplay=1&controls=0&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>');
 ```
 [DEMO] (https://borkosavic.github.io/random-youtube-playlist-video)
 
 ## Options:
 ### Playlist ID
 ID of playlist you want to embed, you can find it out by sharing a playlist. Always start with PL. 
-### Random number generator 
-Generate a random number which will be used to select video to start playlist with. Playlist used in this example currently has 200 videos, you need to change this value to number of videos in the paricular playlist you are embeding
+### Number of videos in playlist  
+Self explanatory - randomizer will generate a number between 1 and this value
 ### Embed video code 
 Generates embed code. Note that I added some parameters:
 * Autoplay - on
